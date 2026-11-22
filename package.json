@@ -1,0 +1,21 @@
+{
+  "name": "floral-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node scripts/run-smoke.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.3.5"
+  }
+}
